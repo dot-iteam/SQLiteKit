@@ -10,6 +10,10 @@ SQLiteKit includes a Swift-DocC documentation catalog at:
 Sources/SQLiteKit/SQLiteKit.docc
 ```
 
+OR hosted version
+
+[SQLiteKit Documentation](https://docs.iteam.studio/docc/documentation/sqlitekit)
+
 GitHub can display the Markdown files in this catalog, but it does not automatically build Swift-DocC documentation or resolve DocC-specific symbol links and article links such as ``SQLiteDatabase`` or `<doc:GettingStarted>`. To read the documentation as intended, open the package in Xcode and use Xcode's documentation catalog reader / documentation viewer.
 
 In Xcode, select the `SQLiteKit.docc` catalog or build documentation for the package to browse the rendered articles, tutorials, and API reference with internal links resolved.
@@ -42,3 +46,4 @@ let users = try await database.result(
 
 await database.close()
 ```
+
