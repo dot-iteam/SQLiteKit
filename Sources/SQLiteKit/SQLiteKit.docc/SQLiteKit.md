@@ -1,5 +1,5 @@
 
-# SQLiteKit
+# ``SQLiteKit``
 
 Use SQLite directly from Swift with an actor-isolated database connection, prepared statements, schema synchronization, row mapping, and compact unique identifiers.
 
