@@ -2,21 +2,12 @@
 
 SQLiteKit is a SQLite-first Swift package that keeps SQL visible while adding Swift conveniences for actor-isolated database access, prepared statements, schema synchronization, row mapping, metadata inspection, and SCUL identifiers.
 
+
 ## Documentation
 
-SQLiteKit includes a Swift-DocC documentation catalog at:
+The package includes a Swift-DocC catalog at `Sources/SQLiteKit/SQLiteKit.docc` with guides, examples, best practices, and a tutorial. In Xcode, choose **Product > Build Documentation** to view it.
 
-```text
-Sources/SQLiteKit/SQLiteKit.docc
-```
-
-OR hosted version
-
-[SQLiteKit Documentation](https://docs.iteam.studio/docc/documentation/sqlitekit)
-
-GitHub can display the Markdown files in this catalog, but it does not automatically build Swift-DocC documentation or resolve DocC-specific symbol links and article links such as ``SQLiteDatabase`` or `<doc:GettingStarted>`. To read the documentation as intended, open the package in Xcode and use Xcode's documentation catalog reader / documentation viewer.
-
-In Xcode, select the `SQLiteKit.docc` catalog or build documentation for the package to browse the rendered articles, tutorials, and API reference with internal links resolved.
+The documentation is hosted on [docs.iteam.studio](https://docs.iteam.studio), iTeam's documentation website for published package and API references. The SQLiteKit documentation is available directly at [docs.iteam.studio/docc/documentation/sqlitekit](https://docs.iteam.studio/docc/documentation/sqlitekit).
 
 ## Quick Example
 
